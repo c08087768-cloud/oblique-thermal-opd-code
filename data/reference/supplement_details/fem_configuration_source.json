@@ -1,0 +1,170 @@
+{
+  "steady": [
+    {
+      "xy_dofs": 2113,
+      "axial_elements": 32,
+      "total_dofs": 137345
+    },
+    {
+      "xy_dofs": 8321,
+      "axial_elements": 32,
+      "total_dofs": 540865
+    },
+    {
+      "xy_dofs": 2113,
+      "axial_elements": 64,
+      "total_dofs": 272577
+    },
+    {
+      "xy_dofs": 8321,
+      "axial_elements": 64,
+      "total_dofs": 1073409
+    }
+  ],
+  "transient_config": {
+    "angles_deg": [
+      0.0,
+      30.0,
+      60.0
+    ],
+    "times_s": [
+      0.0,
+      0.001,
+      0.0025,
+      0.01,
+      0.05,
+      0.1,
+      0.625,
+      2.5,
+      20.0,
+      50.0,
+      75.0
+    ],
+    "temperature_xy_points": 201,
+    "opd_xy_points": 101,
+    "space_tolerance": 0.005,
+    "joint_tolerance": 0.005,
+    "time_tolerance": 0.001,
+    "diagnostic_only_times_s": [
+      0.001
+    ],
+    "sanity_tolerance": 1e-07,
+    "solver_source_sha256": {
+      "src/thermal_opd/fem.py": "ab62ad13a7a86b82858446a48b8038ed9de674ba1de2246e0c8e863977ca60b3",
+      "src/thermal_opd/parameters.py": "538bd0ca8ecb2c1574615ff6c5c53f30bae1eeac884cfe5c83a0b805212ae898",
+      "src/thermal_opd/heat_source.py": "e0e3682f5347d65d55eae7402dd1818d530cc192cd5e52e59cc896b54a820e1c",
+      "src/thermal_opd/transient.py": "1293292694c486a3ae2eb88bebb009e1f8c978f4ea8f434b2db0bd509c4a2115"
+    },
+    "cases": [
+      {
+        "angle_deg": 0.0,
+        "candidate": {
+          "source_run": "../../fem_comparison/20261017T032513816127Z_a44481a6",
+          "case_index": 0
+        },
+        "xy_reference": {
+          "source_run": "../../fem_comparison/20261017T032513876177Z_9dc2fb8c",
+          "case_index": 0
+        },
+        "z_reference": {
+          "source_run": "../../fem_comparison/20261017T032513974062Z_7802bb05",
+          "case_index": 0
+        },
+        "time_reference": {
+          "source_run": "../../fem_comparison/20261017T032514026776Z_7f03f04e",
+          "case_index": 0
+        },
+        "joint_reference": {
+          "source_run": "../../fem_comparison/20261017T032514428313Z_f7b4a461",
+          "case_index": 0
+        }
+      },
+      {
+        "angle_deg": 30.0,
+        "candidate": {
+          "source_run": "../../fem_comparison/20261017T032515171500Z_bb4623f7",
+          "case_index": 0
+        },
+        "xy_reference": {
+          "source_run": "../../fem_comparison/20261017T032515543543Z_164c63c9",
+          "case_index": 0
+        },
+        "z_reference": {
+          "source_run": "../../fem_comparison/20261017T032538445414Z_5df8d64a",
+          "case_index": 0
+        },
+        "time_reference": {
+          "source_run": "../../fem_comparison/20261017T033829218402Z_cccb9fbe",
+          "case_index": 0
+        },
+        "joint_reference": {
+          "source_run": "../../fem_comparison/20261017T035031107461Z_87a3037f",
+          "case_index": 0
+        }
+      },
+      {
+        "angle_deg": 60.0,
+        "candidate": {
+          "source_run": "../../fem_comparison/20261017T053114266798Z_a06b0039",
+          "case_index": 0
+        },
+        "xy_reference": {
+          "source_run": "../../fem_comparison/20261017T053740895032Z_a7120327",
+          "case_index": 0
+        },
+        "z_reference": {
+          "source_run": "../../fem_comparison/20261017T060401178626Z_6ae5d161",
+          "case_index": 0
+        },
+        "time_reference": {
+          "source_run": "../../fem_comparison/20261017T061707132182Z_03f5981b",
+          "case_index": 0
+        },
+        "joint_reference": {
+          "source_run": "../../fem_comparison/20261017T062901253284Z_4bf6d62d",
+          "case_index": 0
+        }
+      }
+    ],
+    "reused_source_lineage": [
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T232255692482Z_d6e0a54e",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032513816127Z_a44481a6",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/p2_order_probe_20261015T231910621662Z"
+      },
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261016T144844357265Z_6706cad2",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032513876177Z_9dc2fb8c",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/p2_order_probe_20261016T144702069853Z"
+      },
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T193844502353Z_1c22f448",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032513974062Z_7802bb05",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/p2_order_probe_20261015T191842893776Z"
+      },
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T233853799433Z_1ee8e737",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032514026776Z_7f03f04e",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/p2_order_probe_20261015T231910621662Z"
+      },
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T211758172132Z_cb3276a4",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032514428313Z_f7b4a461",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/production_fem_20261016T195737541880Z",
+        "source_data_format": "thermal_opd_production_nodes_v1"
+      },
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T230429678849Z_59e2e6dd",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032515171500Z_bb4623f7",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/production_fem_20261016T195737541880Z",
+        "source_data_format": "thermal_opd_production_nodes_v1"
+      },
+      {
+        "original_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T231133290628Z_604185e2",
+        "canonical_source_run": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032515543543Z_164c63c9",
+        "source_snapshot": "/home/user/oblique-thermal-opd/tmp/production_fem_20261016T195737541880Z",
+        "source_data_format": "thermal_opd_production_nodes_v1"
+      }
+    ]
+  }
+}

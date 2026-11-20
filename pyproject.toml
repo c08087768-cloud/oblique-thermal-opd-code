@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oblique-thermal-opd"
+version = "0.1.0"
+description = "Semi-analytical thermal and OPD modeling for oblique Gaussian heating"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.12",
+]
+
+[project.optional-dependencies]
+fem = [
+    "scikit-fem>=8.1,<13",
+    "matplotlib",
+]
+dev = [
+    "pytest",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

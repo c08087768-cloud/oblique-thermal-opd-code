@@ -1,0 +1,2647 @@
+[
+  {
+    "name": "steady_joint_truncation_selection_plain",
+    "summary": {
+      "kind": "steady_joint_truncation_selection",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "steady_joint_truncation_selection",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "not_run": 13
+      }
+    }
+  },
+  {
+    "name": "steady_joint_truncation_selection_complete",
+    "summary": {
+      "kind": "steady_joint_truncation_selection",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "steady_joint_truncation_selection",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "not_run": 12
+      }
+    }
+  },
+  {
+    "name": "steady_prismatic_fem_comparison_plain",
+    "summary": {
+      "kind": "steady_prismatic_fem_comparison",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "steady_prismatic_fem_comparison",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "not_run": 12
+      }
+    }
+  },
+  {
+    "name": "steady_prismatic_fem_comparison_complete",
+    "summary": {
+      "kind": "steady_prismatic_fem_comparison",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "steady_prismatic_fem_comparison",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "not_run": 11
+      }
+    }
+  },
+  {
+    "name": "complete_representative_steady_refracted_ray_case_plain",
+    "summary": {
+      "kind": "complete_representative_steady_refracted_ray_case",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "complete_representative_steady_refracted_ray_case",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {},
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "passed",
+          "metrics": {},
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "not_run": 12
+      }
+    }
+  },
+  {
+    "name": "complete_representative_steady_refracted_ray_case_complete",
+    "summary": {
+      "kind": "complete_representative_steady_refracted_ray_case",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "complete_representative_steady_refracted_ray_case",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "front_modal_W_per_m2": 1e-11
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "passed",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "not_run": 11
+      }
+    }
+  },
+  {
+    "name": "transient_modal_fem_study_plain",
+    "summary": {
+      "kind": "transient_modal_fem_study",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_modal_fem_study",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "passed",
+          "metrics": {
+            "max_initial_temperature_K": 0.0,
+            "max_initial_opd_m": 0.0
+          },
+          "threshold": 0.0,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "not_run": 11
+      }
+    }
+  },
+  {
+    "name": "transient_modal_fem_study_complete",
+    "summary": {
+      "kind": "transient_modal_fem_study",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      },
+      "long_time_errors_vs_steady": {
+        "temperature_relative_l2": [
+          0.0001,
+          0.0001,
+          0.0001
+        ],
+        "temperature_relative_linf": [
+          0.0002,
+          0.0002,
+          0.0002
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 0.0003,
+        "opd_piston_removed_linf_over_reference_pv": 0.0004,
+        "opd_relative_pv": 0.0005
+      }
+    },
+    "boundary": {
+      "status": "PASS",
+      "allowed_absolute_residual_W_per_m2": 1e-07
+    },
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_modal_fem_study",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "passed",
+          "metrics": {
+            "max_initial_temperature_K": 0.0,
+            "max_initial_opd_m": 0.0
+          },
+          "threshold": 0.0,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "passed",
+          "metrics": {
+            "temperature_relative_l2": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "temperature_relative_linf": [
+              0.0002,
+              0.0002,
+              0.0002
+            ],
+            "opd_piston_removed_rms_over_reference_pv": 0.0003,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004,
+            "opd_relative_pv": 0.0005
+          },
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "status": "PASS",
+            "allowed_absolute_residual_W_per_m2": 1e-07
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "not_run": 8
+      }
+    }
+  },
+  {
+    "name": "transient_modal_fem_study_failed_long_time",
+    "summary": {
+      "kind": "transient_modal_fem_study",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      },
+      "long_time_errors_vs_steady": {
+        "temperature_relative_l2": [
+          0.0001,
+          0.0001,
+          0.0001
+        ],
+        "temperature_relative_linf": [
+          0.0002,
+          0.0002,
+          0.0002
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 0.0003,
+        "opd_piston_removed_linf_over_reference_pv": 0.0004,
+        "opd_relative_pv": 0.01
+      }
+    },
+    "boundary": {
+      "status": "PASS",
+      "allowed_absolute_residual_W_per_m2": 1e-07
+    },
+    "report": {
+      "schema_version": 1,
+      "status": "failed",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_modal_fem_study",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "passed",
+          "metrics": {
+            "max_initial_temperature_K": 0.0,
+            "max_initial_opd_m": 0.0
+          },
+          "threshold": 0.0,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "failed",
+          "metrics": {
+            "temperature_relative_l2": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "temperature_relative_linf": [
+              0.0002,
+              0.0002,
+              0.0002
+            ],
+            "opd_piston_removed_rms_over_reference_pv": 0.0003,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004,
+            "opd_relative_pv": 0.01
+          },
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "status": "PASS",
+            "allowed_absolute_residual_W_per_m2": 1e-07
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 5,
+        "failed": 1,
+        "not_run": 8
+      }
+    }
+  },
+  {
+    "name": "transient_joint_truncation_selection_plain",
+    "summary": {
+      "kind": "transient_joint_truncation_selection",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_joint_truncation_selection",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "not_run": 13
+      }
+    }
+  },
+  {
+    "name": "transient_joint_truncation_selection_complete",
+    "summary": {
+      "kind": "transient_joint_truncation_selection",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      },
+      "long_time_errors_vs_steady": {
+        "temperature_relative_l2": [
+          0.0001,
+          0.0001,
+          0.0001
+        ],
+        "temperature_relative_linf": [
+          0.0002,
+          0.0002,
+          0.0002
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 0.0003,
+        "opd_piston_removed_linf_over_reference_pv": 0.0004,
+        "opd_relative_pv": 0.0005
+      }
+    },
+    "boundary": {
+      "status": "PASS",
+      "allowed_absolute_residual_W_per_m2": 1e-07
+    },
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_joint_truncation_selection",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "passed",
+          "metrics": {
+            "temperature_relative_l2": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "temperature_relative_linf": [
+              0.0002,
+              0.0002,
+              0.0002
+            ],
+            "opd_piston_removed_rms_over_reference_pv": 0.0003,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004,
+            "opd_relative_pv": 0.0005
+          },
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "status": "PASS",
+            "allowed_absolute_residual_W_per_m2": 1e-07
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "not_run": 10
+      }
+    }
+  },
+  {
+    "name": "transient_joint_truncation_selection_failed_long_time",
+    "summary": {
+      "kind": "transient_joint_truncation_selection",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": false,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      },
+      "long_time_errors_vs_steady": {
+        "temperature_relative_l2": [
+          0.0001,
+          0.0001,
+          0.0001
+        ],
+        "temperature_relative_linf": [
+          0.0002,
+          0.0002,
+          0.0002
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 0.0003,
+        "opd_piston_removed_linf_over_reference_pv": 0.0004,
+        "opd_relative_pv": 0.01
+      }
+    },
+    "boundary": {
+      "status": "PASS",
+      "allowed_absolute_residual_W_per_m2": 1e-07
+    },
+    "report": {
+      "schema_version": 1,
+      "status": "failed",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_joint_truncation_selection",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "failed",
+          "metrics": {
+            "temperature_relative_l2": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "temperature_relative_linf": [
+              0.0002,
+              0.0002,
+              0.0002
+            ],
+            "opd_piston_removed_rms_over_reference_pv": 0.0003,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004,
+            "opd_relative_pv": 0.01
+          },
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "status": "PASS",
+            "allowed_absolute_residual_W_per_m2": 1e-07
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 3,
+        "failed": 1,
+        "not_run": 10
+      }
+    }
+  },
+  {
+    "name": "transient_fine_fields_plain",
+    "summary": {
+      "kind": "transient_fine_fields",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      }
+    },
+    "boundary": null,
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_fine_fields",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "passed",
+          "metrics": {
+            "max_initial_temperature_K": 0.0,
+            "max_initial_opd_m": 0.0
+          },
+          "threshold": 0.0,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "not_run": 13
+      }
+    }
+  },
+  {
+    "name": "transient_fine_fields_complete",
+    "summary": {
+      "kind": "transient_fine_fields",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": true,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      },
+      "long_time_errors_vs_steady": {
+        "temperature_relative_l2": [
+          0.0001,
+          0.0001,
+          0.0001
+        ],
+        "temperature_relative_linf": [
+          0.0002,
+          0.0002,
+          0.0002
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 0.0003,
+        "opd_piston_removed_linf_over_reference_pv": 0.0004,
+        "opd_relative_pv": 0.0005
+      }
+    },
+    "boundary": {
+      "status": "PASS",
+      "allowed_absolute_residual_W_per_m2": 1e-07
+    },
+    "report": {
+      "schema_version": 1,
+      "status": "not_run",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_fine_fields",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "passed",
+          "metrics": {
+            "max_initial_temperature_K": 0.0,
+            "max_initial_opd_m": 0.0
+          },
+          "threshold": 0.0,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "passed",
+          "metrics": {
+            "temperature_relative_l2": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "temperature_relative_linf": [
+              0.0002,
+              0.0002,
+              0.0002
+            ],
+            "opd_piston_removed_rms_over_reference_pv": 0.0003,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004,
+            "opd_relative_pv": 0.0005
+          },
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "status": "PASS",
+            "allowed_absolute_residual_W_per_m2": 1e-07
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 5,
+        "failed": 0,
+        "not_run": 9
+      }
+    }
+  },
+  {
+    "name": "transient_fine_fields_failed_long_time",
+    "summary": {
+      "kind": "transient_fine_fields",
+      "physical_parameters_SI": {
+        "radius": 0.0127
+      },
+      "precision_target": 0.001,
+      "precision_scope": {
+        "times_s": [
+          0,
+          0.625,
+          2.5
+        ]
+      },
+      "mesh_convergence_established": true,
+      "transient_truncation_established": true,
+      "energy_balance": {
+        "balance_absolute_error_W": 1e-12
+      },
+      "boundary_absolute_residuals_W_per_m2": {
+        "front_modal_W_per_m2": 1e-11
+      },
+      "long_time_errors_vs_steady": {
+        "temperature_relative_l2": [
+          0.0001,
+          0.0001,
+          0.0001
+        ],
+        "temperature_relative_linf": [
+          0.0002,
+          0.0002,
+          0.0002
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 0.0003,
+        "opd_piston_removed_linf_over_reference_pv": 0.0004,
+        "opd_relative_pv": 0.01
+      }
+    },
+    "boundary": {
+      "status": "PASS",
+      "allowed_absolute_residual_W_per_m2": 1e-07
+    },
+    "report": {
+      "schema_version": 1,
+      "status": "failed",
+      "run_directory": ".",
+      "config": {
+        "physical_parameters_SI": {
+          "radius": 0.0127
+        },
+        "kind": "transient_fine_fields",
+        "scope": {
+          "times_s": [
+            0,
+            0.625,
+            2.5
+          ]
+        }
+      },
+      "checks": [
+        {
+          "name": "joint_modal_truncation",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only the recorded angles, times, history and finite-reference tolerances",
+          "evidence": "validation-run"
+        },
+        {
+          "name": "projection_quadrature_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Joint modal/projection refinement does not isolate projection quadrature",
+          "evidence": null
+        },
+        {
+          "name": "pde_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent PDE experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "initial_condition",
+          "status": "passed",
+          "metrics": {
+            "max_initial_temperature_K": 0.0,
+            "max_initial_opd_m": 0.0
+          },
+          "threshold": 0.0,
+          "scope": "Saved zero-time semi-analytical field; FEM nodes additionally checked in FEM studies",
+          "evidence": null
+        },
+        {
+          "name": "initial_neighborhood",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Exact t=0 assignment does not establish t→0+ convergence",
+          "evidence": null
+        },
+        {
+          "name": "long_time_steady_limit",
+          "status": "failed",
+          "metrics": {
+            "temperature_relative_l2": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "temperature_relative_linf": [
+              0.0002,
+              0.0002,
+              0.0002
+            ],
+            "opd_piston_removed_rms_over_reference_pv": 0.0003,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004,
+            "opd_relative_pv": 0.01
+          },
+          "threshold": 0.001,
+          "scope": "Recorded long-time comparison with same retained steady modes",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "thermal_boundaries",
+          "status": "passed",
+          "metrics": {
+            "status": "PASS",
+            "allowed_absolute_residual_W_per_m2": 1e-07
+          },
+          "threshold": 1e-07,
+          "scope": "Sampled semi-analytical front/rear/side residuals against retained heat flux",
+          "evidence": "boundary_summary.json"
+        },
+        {
+          "name": "steady_energy_balance",
+          "status": "not_run",
+          "metrics": {
+            "balance_absolute_error_W": 1e-12
+          },
+          "threshold": "1e-9 W + 1e-7*abs(modal_input_W)",
+          "scope": "Independent steady surface integrals; only the retained source",
+          "evidence": "summary.json"
+        },
+        {
+          "name": "fem_energy_balance",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Reloaded nodal storage/loss integrals and recorded input",
+          "evidence": null
+        },
+        {
+          "name": "fem_weak_equation_residual",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Discrete weak-form linear residual; not pointwise normal flux",
+          "evidence": null
+        },
+        {
+          "name": "fem_independent_reference",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Independent FEM reference experiment/evidence required",
+          "evidence": null
+        },
+        {
+          "name": "fem_space_convergence",
+          "status": "passed",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Only recorded mesh-refinement target; smoke is not a final certificate",
+          "evidence": null
+        },
+        {
+          "name": "fem_time_convergence",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Separate transient time-refinement acceptance required",
+          "evidence": null
+        },
+        {
+          "name": "cross_method_comparison",
+          "status": "not_run",
+          "metrics": {},
+          "threshold": null,
+          "scope": "Fields/metrics may be available; agreement is not an independent verification certificate",
+          "evidence": null
+        }
+      ],
+      "counts": {
+        "passed": 4,
+        "failed": 1,
+        "not_run": 9
+      }
+    }
+  }
+]

@@ -1,0 +1,2011 @@
+{
+  "steady": [
+    {
+      "angle_deg": 0,
+      "direction": "xy",
+      "metrics": {
+        "temperature_relative_l2": [
+          0.0007328329912219379,
+          0.0007825108846880649,
+          0.0007986846205560132
+        ],
+        "temperature_relative_linf": [
+          0.0006536696489106187,
+          0.0005962421220742061,
+          0.0006678338456869774
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 6.956895489144693e-05,
+        "opd_piston_removed_linf_over_reference_pv": 0.00030268821096169534,
+        "opd_relative_pv": 0.00023761843171459017
+      },
+      "source": "steady_0_30/summary.json#cases/new_directional_checks/xy"
+    },
+    {
+      "angle_deg": 0,
+      "direction": "z",
+      "metrics": {
+        "temperature_relative_l2": [
+          1.395994081598953e-08,
+          1.6710918132097518e-09,
+          1.2594669745746311e-09
+        ],
+        "temperature_relative_linf": [
+          1.3455706909133762e-07,
+          1.0465109629055667e-08,
+          6.9009923372536225e-09
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 5.843338496906887e-11,
+        "opd_piston_removed_linf_over_reference_pv": 4.595312276789294e-10,
+        "opd_relative_pv": 4.5888327637064456e-10
+      },
+      "source": "steady_0_30/summary.json#cases/new_directional_checks/z"
+    },
+    {
+      "angle_deg": 0,
+      "direction": "joint",
+      "metrics": {
+        "temperature_relative_l2": [
+          0.00073283315122803,
+          0.0007825108638230511,
+          0.0007986846005159269
+        ],
+        "temperature_relative_linf": [
+          0.0006536631321020053,
+          0.0005962421248310852,
+          0.0006678339198270928
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 6.956894408309388e-05,
+        "opd_piston_removed_linf_over_reference_pv": 0.00030268804725690836,
+        "opd_relative_pv": 0.00023761797851688612
+      },
+      "source": "steady_0_30/summary.json#cases/new_directional_checks/joint"
+    },
+    {
+      "angle_deg": 30,
+      "direction": "xy",
+      "metrics": {
+        "temperature_relative_l2": [
+          0.0007339699856223874,
+          0.0007842297285734414,
+          0.0008002252600993194
+        ],
+        "temperature_relative_linf": [
+          0.0006287286722666905,
+          0.0006077919909638272,
+          0.0006759661743945836
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 6.025460315133122e-05,
+        "opd_piston_removed_linf_over_reference_pv": 0.0002570268091804077,
+        "opd_relative_pv": 0.00024077384265148795
+      },
+      "source": "steady_0_30/summary.json#cases/new_directional_checks/xy"
+    },
+    {
+      "angle_deg": 30,
+      "direction": "z",
+      "metrics": {
+        "temperature_relative_l2": [
+          1.0864435562192327e-08,
+          1.3436974970531015e-09,
+          1.0977288150557932e-09
+        ],
+        "temperature_relative_linf": [
+          9.837343914784521e-08,
+          8.005249215924439e-09,
+          5.797260792166898e-09
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 1.1178184802970563e-09,
+        "opd_piston_removed_linf_over_reference_pv": 6.637891952999602e-09,
+        "opd_relative_pv": 1.1039089781689042e-09
+      },
+      "source": "steady_0_30/summary.json#cases/new_directional_checks/z"
+    },
+    {
+      "angle_deg": 30,
+      "direction": "joint",
+      "metrics": {
+        "temperature_relative_l2": [
+          0.0007339700889428191,
+          0.0007842297099396415,
+          0.0008002252404302091
+        ],
+        "temperature_relative_linf": [
+          0.0006287256937059611,
+          0.0006077919974562771,
+          0.0006759662517707994
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 6.025461202839848e-05,
+        "opd_piston_removed_linf_over_reference_pv": 0.00025702485384251623,
+        "opd_relative_pv": 0.0002407751208902525
+      },
+      "source": "steady_0_30/summary.json#cases/new_directional_checks/joint"
+    },
+    {
+      "angle_deg": 60,
+      "direction": "xy",
+      "metrics": {
+        "temperature_relative_l2": [
+          0.000743751184355608,
+          0.0007902467431587748,
+          0.0008043855249754748
+        ],
+        "temperature_relative_linf": [
+          0.0005860062085472514,
+          0.0006843920358947565,
+          0.0007282041124589033
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 6.65029983875804e-05,
+        "opd_piston_removed_linf_over_reference_pv": 0.00021592669525406048,
+        "opd_relative_pv": 0.00020609883073831494
+      },
+      "source": "steady_60/summary.json#cases/new_directional_checks/xy"
+    },
+    {
+      "angle_deg": 60,
+      "direction": "z",
+      "metrics": {
+        "temperature_relative_l2": [
+          6.301963647073575e-09,
+          7.67854863614848e-10,
+          6.767977827575524e-10
+        ],
+        "temperature_relative_linf": [
+          4.002398867345342e-08,
+          3.373579029505904e-09,
+          2.8592678208635823e-09
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 9.831839420037339e-10,
+        "opd_piston_removed_linf_over_reference_pv": 4.393342083116346e-09,
+        "opd_relative_pv": 1.235697486627933e-09
+      },
+      "source": "steady_60/summary.json#cases/new_directional_checks/z"
+    },
+    {
+      "angle_deg": 60,
+      "direction": "joint",
+      "metrics": {
+        "temperature_relative_l2": [
+          0.0007437511741124772,
+          0.000790246727147831,
+          0.0008043855053650295
+        ],
+        "temperature_relative_linf": [
+          0.0005860092347087511,
+          0.0006843920184920077,
+          0.0007282040778229458
+        ],
+        "opd_piston_removed_rms_over_reference_pv": 6.650305116447531e-05,
+        "opd_piston_removed_linf_over_reference_pv": 0.0002159275571504942,
+        "opd_relative_pv": 0.00020610019074634176
+      },
+      "source": "steady_60/summary.json#cases/new_directional_checks/joint"
+    }
+  ],
+  "transient": [
+    {
+      "angle_deg": 0,
+      "direction": "xy",
+      "records": [
+        {
+          "direction": "xy",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0006120398555233007,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014136316272524632,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008663722609084893
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0005785103335225387,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014145396108956743,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008587294125525667
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0004387004994711359,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014193899363655217,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008288382074099986
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00016653570109270832,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014397892850220504,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008733970881835394
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 8.384555533038937e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014480624099431352,
+            "opd_piston_removed_linf_over_reference_pv": 0.000892987615908764
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 7.960035160923544e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013838513297539885,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008756681887471243
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00014015316879730178,
+            "opd_piston_removed_rms_over_reference_pv": 0.00011430733722059771,
+            "opd_piston_removed_linf_over_reference_pv": 0.0006556587538364064
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00016207937882638923,
+            "opd_piston_removed_rms_over_reference_pv": 6.560954923818595e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003078741481910419
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00032409052237405316,
+            "opd_piston_removed_rms_over_reference_pv": 9.00151914218557e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003547879222341692
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00034989159343648063,
+            "opd_piston_removed_rms_over_reference_pv": 9.570287230958287e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003669521955285265
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "33aff4abfc4ed8ae74486bf6f4513a30d49438170c90d02a750e6d3783533509",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T232255692482Z_d6e0a54e/data/nodes.npz": "6bce63295c928996359c2e93a667908dfca926b623557fdb010a868cd3ea953d",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261016T144844357265Z_6706cad2/data/nodes.npz": "beffb9f4af3d4f64dec7fe764c228defef182e8d923cc1543216e0ecbb83fe05",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T193844502353Z_1c22f448/data/nodes.npz": "512d0bfbf589824bd57d0099231e4193f7321b2a0b3e07b6d46ecf54d8275071",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T233853799433Z_1ee8e737/data/nodes.npz": "414afa3a60329e783fe865320b116008e52ca47a922e582c80af18138ab40716",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T211758172132Z_cb3276a4/data/fem_run0.npz": "581e641096313635977d024c63396db2208f546df6dfe8b0eb693e3e07723c97"
+      }
+    },
+    {
+      "angle_deg": 0,
+      "direction": "z",
+      "records": [
+        {
+          "direction": "z",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.1754215182236669e-09,
+            "opd_piston_removed_rms_over_reference_pv": 1.845956321522484e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.1100981356549668e-09
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.0774187060586676e-09,
+            "opd_piston_removed_rms_over_reference_pv": 1.6929747575124814e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.0174977375063047e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.285204474128397e-09,
+            "opd_piston_removed_rms_over_reference_pv": 2.0218762412691717e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.213567716332971e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.9772935197066903e-09,
+            "opd_piston_removed_rms_over_reference_pv": 3.1252511959877577e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.8659460641273545e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.8321362294686456e-09,
+            "opd_piston_removed_rms_over_reference_pv": 2.9072100761894784e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.7281681218994006e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 3.6482867571004456e-10,
+            "opd_piston_removed_rms_over_reference_pv": 5.843007936094703e-11,
+            "opd_piston_removed_linf_over_reference_pv": 3.4578287908790586e-10
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 6.877957250955362e-11,
+            "opd_piston_removed_rms_over_reference_pv": 9.67008752406515e-12,
+            "opd_piston_removed_linf_over_reference_pv": 6.701918481080759e-11
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.6878961555430797e-11,
+            "opd_piston_removed_rms_over_reference_pv": 2.3702484217799985e-12,
+            "opd_piston_removed_linf_over_reference_pv": 1.7245395933543534e-11
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.6456528309296625e-11,
+            "opd_piston_removed_rms_over_reference_pv": 2.212269934844707e-12,
+            "opd_piston_removed_linf_over_reference_pv": 1.6285546543521417e-11
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.2572289669346333e-11,
+            "opd_piston_removed_rms_over_reference_pv": 1.947829182672875e-12,
+            "opd_piston_removed_linf_over_reference_pv": 1.3473060013446354e-11
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "33aff4abfc4ed8ae74486bf6f4513a30d49438170c90d02a750e6d3783533509",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T232255692482Z_d6e0a54e/data/nodes.npz": "6bce63295c928996359c2e93a667908dfca926b623557fdb010a868cd3ea953d",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261016T144844357265Z_6706cad2/data/nodes.npz": "beffb9f4af3d4f64dec7fe764c228defef182e8d923cc1543216e0ecbb83fe05",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T193844502353Z_1c22f448/data/nodes.npz": "512d0bfbf589824bd57d0099231e4193f7321b2a0b3e07b6d46ecf54d8275071",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T233853799433Z_1ee8e737/data/nodes.npz": "414afa3a60329e783fe865320b116008e52ca47a922e582c80af18138ab40716",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T211758172132Z_cb3276a4/data/fem_run0.npz": "581e641096313635977d024c63396db2208f546df6dfe8b0eb693e3e07723c97"
+      }
+    },
+    {
+      "angle_deg": 0,
+      "direction": "time",
+      "records": [
+        {
+          "direction": "time",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 2.1975007674006485e-08,
+            "opd_piston_removed_rms_over_reference_pv": 2.4213033529772275e-09,
+            "opd_piston_removed_linf_over_reference_pv": 2.169659304266845e-08
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 7.679251366900271e-09,
+            "opd_piston_removed_rms_over_reference_pv": 8.417566223652188e-10,
+            "opd_piston_removed_linf_over_reference_pv": 7.596251090105032e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 9.92699948574935e-08,
+            "opd_piston_removed_rms_over_reference_pv": 1.1420089415892874e-08,
+            "opd_piston_removed_linf_over_reference_pv": 9.872588012550107e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 5.078211166572838e-07,
+            "opd_piston_removed_rms_over_reference_pv": 6.079030033446775e-08,
+            "opd_piston_removed_linf_over_reference_pv": 5.064961117362623e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 2.348860922247829e-07,
+            "opd_piston_removed_rms_over_reference_pv": 2.8624472651697823e-08,
+            "opd_piston_removed_linf_over_reference_pv": 2.3444405225858228e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.5370896230124686e-08,
+            "opd_piston_removed_rms_over_reference_pv": 2.5661895281245586e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.5257099165974856e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 4.725803882051286e-06,
+            "opd_piston_removed_rms_over_reference_pv": 9.364485240735754e-07,
+            "opd_piston_removed_linf_over_reference_pv": 4.687310315237787e-06
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 3.8083817966121743e-06,
+            "opd_piston_removed_rms_over_reference_pv": 1.2766881810287517e-06,
+            "opd_piston_removed_linf_over_reference_pv": 1.9797135911962547e-06
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 2.836223123508022e-07,
+            "opd_piston_removed_rms_over_reference_pv": 8.162385334888073e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.7544503814178998e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.3903996314626867e-07,
+            "opd_piston_removed_rms_over_reference_pv": 4.063838437509075e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.0197189699921822e-07
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "33aff4abfc4ed8ae74486bf6f4513a30d49438170c90d02a750e6d3783533509",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T232255692482Z_d6e0a54e/data/nodes.npz": "6bce63295c928996359c2e93a667908dfca926b623557fdb010a868cd3ea953d",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261016T144844357265Z_6706cad2/data/nodes.npz": "beffb9f4af3d4f64dec7fe764c228defef182e8d923cc1543216e0ecbb83fe05",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T193844502353Z_1c22f448/data/nodes.npz": "512d0bfbf589824bd57d0099231e4193f7321b2a0b3e07b6d46ecf54d8275071",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T233853799433Z_1ee8e737/data/nodes.npz": "414afa3a60329e783fe865320b116008e52ca47a922e582c80af18138ab40716",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T211758172132Z_cb3276a4/data/fem_run0.npz": "581e641096313635977d024c63396db2208f546df6dfe8b0eb693e3e07723c97"
+      }
+    },
+    {
+      "angle_deg": 0,
+      "direction": "joint",
+      "records": [
+        {
+          "direction": "joint",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0006120206309120069,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014136316894693563,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008663576866862533
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0005785040796863613,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014145396832572604,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008587248832070525
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0004386058262295876,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014193907023557617,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008287649982015331
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00016603015471529917,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014397969297031554,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008732695564436702
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 8.361273791363136e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001448066969906821,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008929261061808053
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 7.96152607269106e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013838521418639397,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008756603007364148
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00014487890571871008,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001143588355181819,
+            "opd_piston_removed_linf_over_reference_pv": 0.0006526243413232984
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00016588986046448432,
+            "opd_piston_removed_rms_over_reference_pv": 6.602705498736499e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00030984468915035135
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00032437823080292707,
+            "opd_piston_removed_rms_over_reference_pv": 9.008017390093012e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003549510033814118
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0003497524696114154,
+            "opd_piston_removed_rms_over_reference_pv": 9.56709606683131e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003668609364597427
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "33aff4abfc4ed8ae74486bf6f4513a30d49438170c90d02a750e6d3783533509",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T232255692482Z_d6e0a54e/data/nodes.npz": "6bce63295c928996359c2e93a667908dfca926b623557fdb010a868cd3ea953d",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261016T144844357265Z_6706cad2/data/nodes.npz": "beffb9f4af3d4f64dec7fe764c228defef182e8d923cc1543216e0ecbb83fe05",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T193844502353Z_1c22f448/data/nodes.npz": "512d0bfbf589824bd57d0099231e4193f7321b2a0b3e07b6d46ecf54d8275071",
+        "/home/user/oblique-thermal-opd/outputs/fem_order_probe/20261015T233853799433Z_1ee8e737/data/nodes.npz": "414afa3a60329e783fe865320b116008e52ca47a922e582c80af18138ab40716",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T211758172132Z_cb3276a4/data/fem_run0.npz": "581e641096313635977d024c63396db2208f546df6dfe8b0eb693e3e07723c97"
+      }
+    },
+    {
+      "angle_deg": 30,
+      "direction": "xy",
+      "records": [
+        {
+          "direction": "xy",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.000457298441583894,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013241403328890608,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007690975961864245
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0004202639703032212,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013233412670820313,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007561985496507595
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0002925027970482722,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001319676165732546,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007914337298429287
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 6.845621952999861e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013073090588372956,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008728703767606703
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 8.959688994070063e-07,
+            "opd_piston_removed_rms_over_reference_pv": 0.00012843053333167284,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008755938593578586
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0001275962276198817,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001076118130926146,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007857363305725653
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00013099571268114358,
+            "opd_piston_removed_rms_over_reference_pv": 7.896595360218238e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0005459892196884133
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00015730518290313502,
+            "opd_piston_removed_rms_over_reference_pv": 4.758923087875552e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00025688570367671644
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00033276553070110454,
+            "opd_piston_removed_rms_over_reference_pv": 8.501226854190604e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00031032831698727954
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0003587435919786892,
+            "opd_piston_removed_rms_over_reference_pv": 9.16937957780488e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00032243854492399143
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "4d48bb69adf17dbc3ac2615d1d5f4065abda1b1f8b4c039ce0cf656507b1a83a",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T230429678849Z_59e2e6dd/data/fem_run0.npz": "4c96ba845c6e8e4e8954a7b268abf4c03597f51409ae1938d74983815fb03ea9",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T231133290628Z_604185e2/data/fem_run0.npz": "172ddab0cc542717120421eecaab0fafaa02d16f0be0dce96c9268bc31f0e460",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032538445414Z_5df8d64a/data/fem_run0.npz": "522414718c2e17f3d839493a4bb5a1c65cfb4f379f7639ca6dda8590c0f9a617",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T033829218402Z_cccb9fbe/data/fem_run0.npz": "8622400be9e37805735a8741b1a938c3b05ed486cf554f66df5527916060a798",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T035031107461Z_87a3037f/data/fem_run0.npz": "e87ca36c1c44477c08eba5c3ed83130bac742bd978260ddfb08f860c134e71ab"
+      }
+    },
+    {
+      "angle_deg": 30,
+      "direction": "z",
+      "records": [
+        {
+          "direction": "z",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.299635962574975e-09,
+            "opd_piston_removed_rms_over_reference_pv": 2.283062914105607e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.1601498337918868e-08
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.1856256682221127e-09,
+            "opd_piston_removed_rms_over_reference_pv": 2.097018843453826e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.0749133288792105e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.3923546898696476e-09,
+            "opd_piston_removed_rms_over_reference_pv": 2.510694566700464e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.3616495592120397e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 2.0909237654144847e-09,
+            "opd_piston_removed_rms_over_reference_pv": 3.8920836436042895e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.993806765762192e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.9291012794854136e-09,
+            "opd_piston_removed_rms_over_reference_pv": 3.618107324392233e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.8396726931375788e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.8275154855488196e-10,
+            "opd_piston_removed_rms_over_reference_pv": 7.455670076844257e-10,
+            "opd_piston_removed_linf_over_reference_pv": 3.779881093967066e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 6.86124685254109e-11,
+            "opd_piston_removed_rms_over_reference_pv": 2.0953959702393114e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.0840130691865269e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 3.2363591270176294e-11,
+            "opd_piston_removed_rms_over_reference_pv": 5.940159664076432e-11,
+            "opd_piston_removed_linf_over_reference_pv": 3.212921362228459e-10
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 2.180970696513021e-11,
+            "opd_piston_removed_rms_over_reference_pv": 5.0263291152222206e-11,
+            "opd_piston_removed_linf_over_reference_pv": 2.739066406206481e-10
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 2.5945120709242628e-11,
+            "opd_piston_removed_rms_over_reference_pv": 4.9151118767957375e-11,
+            "opd_piston_removed_linf_over_reference_pv": 2.6559671666922643e-10
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "4d48bb69adf17dbc3ac2615d1d5f4065abda1b1f8b4c039ce0cf656507b1a83a",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T230429678849Z_59e2e6dd/data/fem_run0.npz": "4c96ba845c6e8e4e8954a7b268abf4c03597f51409ae1938d74983815fb03ea9",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T231133290628Z_604185e2/data/fem_run0.npz": "172ddab0cc542717120421eecaab0fafaa02d16f0be0dce96c9268bc31f0e460",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032538445414Z_5df8d64a/data/fem_run0.npz": "522414718c2e17f3d839493a4bb5a1c65cfb4f379f7639ca6dda8590c0f9a617",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T033829218402Z_cccb9fbe/data/fem_run0.npz": "8622400be9e37805735a8741b1a938c3b05ed486cf554f66df5527916060a798",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T035031107461Z_87a3037f/data/fem_run0.npz": "e87ca36c1c44477c08eba5c3ed83130bac742bd978260ddfb08f860c134e71ab"
+      }
+    },
+    {
+      "angle_deg": 30,
+      "direction": "time",
+      "records": [
+        {
+          "direction": "time",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 2.0791863677755538e-08,
+            "opd_piston_removed_rms_over_reference_pv": 9.477713671625303e-09,
+            "opd_piston_removed_linf_over_reference_pv": 5.232226761350927e-08
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 7.128069055148243e-09,
+            "opd_piston_removed_rms_over_reference_pv": 2.0001787472415094e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.196758789599761e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 9.21929459899776e-08,
+            "opd_piston_removed_rms_over_reference_pv": 2.101306189747901e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.322129936054458e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 4.732341302780457e-07,
+            "opd_piston_removed_rms_over_reference_pv": 7.470389644373905e-08,
+            "opd_piston_removed_linf_over_reference_pv": 5.227140896090355e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 2.1938245641082547e-07,
+            "opd_piston_removed_rms_over_reference_pv": 3.1457016913948054e-08,
+            "opd_piston_removed_linf_over_reference_pv": 2.2658912947969888e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.5568343352904218e-08,
+            "opd_piston_removed_rms_over_reference_pv": 2.7191172754003194e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.572231163672835e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 4.684040253948101e-06,
+            "opd_piston_removed_rms_over_reference_pv": 9.757784757580883e-07,
+            "opd_piston_removed_linf_over_reference_pv": 4.674289905238482e-06
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 4.157489939221723e-06,
+            "opd_piston_removed_rms_over_reference_pv": 1.325459274082564e-06,
+            "opd_piston_removed_linf_over_reference_pv": 2.1137751082464386e-06
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 3.186326420345173e-07,
+            "opd_piston_removed_rms_over_reference_pv": 8.615720511627323e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.8072954507688788e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.376366917564101e-07,
+            "opd_piston_removed_rms_over_reference_pv": 4.1120846314892524e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.0283520163712935e-07
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "4d48bb69adf17dbc3ac2615d1d5f4065abda1b1f8b4c039ce0cf656507b1a83a",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T230429678849Z_59e2e6dd/data/fem_run0.npz": "4c96ba845c6e8e4e8954a7b268abf4c03597f51409ae1938d74983815fb03ea9",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T231133290628Z_604185e2/data/fem_run0.npz": "172ddab0cc542717120421eecaab0fafaa02d16f0be0dce96c9268bc31f0e460",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032538445414Z_5df8d64a/data/fem_run0.npz": "522414718c2e17f3d839493a4bb5a1c65cfb4f379f7639ca6dda8590c0f9a617",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T033829218402Z_cccb9fbe/data/fem_run0.npz": "8622400be9e37805735a8741b1a938c3b05ed486cf554f66df5527916060a798",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T035031107461Z_87a3037f/data/fem_run0.npz": "e87ca36c1c44477c08eba5c3ed83130bac742bd978260ddfb08f860c134e71ab"
+      }
+    },
+    {
+      "angle_deg": 30,
+      "direction": "joint",
+      "records": [
+        {
+          "direction": "joint",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00045728044109158265,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013241404146256873,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007690990759694698
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00042025824218539946,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013233413455108293,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007561988359995193
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0002924144435017302,
+            "opd_piston_removed_rms_over_reference_pv": 0.00013196768966551326,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007914383369066507
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 6.798526596001082e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001307314840982615,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008729572485172494
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 6.784728221389089e-07,
+            "opd_piston_removed_rms_over_reference_pv": 0.00012843088149545106,
+            "opd_piston_removed_linf_over_reference_pv": 0.0008756507801844038
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00012761196909310608,
+            "opd_piston_removed_rms_over_reference_pv": 0.00010761189699956848,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007857282160442785
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00013567928628462447,
+            "opd_piston_removed_rms_over_reference_pv": 7.902923459035657e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0005430125246197284
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00016146543951221654,
+            "opd_piston_removed_rms_over_reference_pv": 4.826543304398528e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00025894531378458887
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0003330884475086104,
+            "opd_piston_removed_rms_over_reference_pv": 8.508881972193245e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003104898254701043
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0003586058853212315,
+            "opd_piston_removed_rms_over_reference_pv": 9.165818921583142e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0003223504360920564
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "4d48bb69adf17dbc3ac2615d1d5f4065abda1b1f8b4c039ce0cf656507b1a83a",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T230429678849Z_59e2e6dd/data/fem_run0.npz": "4c96ba845c6e8e4e8954a7b268abf4c03597f51409ae1938d74983815fb03ea9",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T231133290628Z_604185e2/data/fem_run0.npz": "172ddab0cc542717120421eecaab0fafaa02d16f0be0dce96c9268bc31f0e460",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T032538445414Z_5df8d64a/data/fem_run0.npz": "522414718c2e17f3d839493a4bb5a1c65cfb4f379f7639ca6dda8590c0f9a617",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T033829218402Z_cccb9fbe/data/fem_run0.npz": "8622400be9e37805735a8741b1a938c3b05ed486cf554f66df5527916060a798",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T035031107461Z_87a3037f/data/fem_run0.npz": "e87ca36c1c44477c08eba5c3ed83130bac742bd978260ddfb08f860c134e71ab"
+      }
+    },
+    {
+      "angle_deg": 60,
+      "direction": "xy",
+      "records": [
+        {
+          "direction": "xy",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00026427512184501174,
+            "opd_piston_removed_rms_over_reference_pv": 0.00015033182964955342,
+            "opd_piston_removed_linf_over_reference_pv": 0.000734242773782311
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0002463462846710323,
+            "opd_piston_removed_rms_over_reference_pv": 0.00015004769927821947,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007149234396484112
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0001827652963949097,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014916936864957785,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007023062262907482
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 5.119735908251361e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014744315186306973,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007168273232021585
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.5182246414005177e-06,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014512084931474594,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007133741969775485
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 5.004965285929884e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001249851510726885,
+            "opd_piston_removed_linf_over_reference_pv": 0.0006345108791599957
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 4.030523343450144e-05,
+            "opd_piston_removed_rms_over_reference_pv": 9.028402257577517e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00041131404265197947
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00011350365522961919,
+            "opd_piston_removed_rms_over_reference_pv": 5.7499275197774975e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00021323429269391424
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0003147913414476902,
+            "opd_piston_removed_rms_over_reference_pv": 9.978747338184545e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0002811420490710791
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "xy",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0003442744419243881,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001054107224247018,
+            "opd_piston_removed_linf_over_reference_pv": 0.0002925692070079207
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "8fec4ff0a80072c48062c34086e2684a202d10725d2c9baba75d754839bbdb85",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053114266798Z_a06b0039/data/fem_run0.npz": "756cea57a434b72dde56ca97c74e67741cc27e59f543fc460b7ab81e57a0fe1a",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053740895032Z_a7120327/data/fem_run0.npz": "51673dda521a44f3593ece855f1fb19ceb6f6a183bc0f1af262079e71cd5ed4c",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T060401178626Z_6ae5d161/data/fem_run0.npz": "dc290a7d6d9bbf97125a8df36baaa700f35354b2ccff1604ab39a466899d8e51",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T061707132182Z_03f5981b/data/fem_run0.npz": "a9caf02f6a1f68dfd96b914c311d1238570f4ba66b3d048d9475229f6ac1ccda",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T062901253284Z_4bf6d62d/data/fem_run0.npz": "895d248b24290e80e3623f47f719c117959317ca17d4d18edc88bc486903668f"
+      }
+    },
+    {
+      "angle_deg": 60,
+      "direction": "z",
+      "records": [
+        {
+          "direction": "z",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.2336221738273548e-09,
+            "opd_piston_removed_rms_over_reference_pv": 3.6887614477683242e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.3616185038138238e-08
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.1273490387729128e-09,
+            "opd_piston_removed_rms_over_reference_pv": 3.3886663200804133e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.2310755139004922e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.3292980464459233e-09,
+            "opd_piston_removed_rms_over_reference_pv": 4.063587301041656e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.5004313083872028e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 2.0110190294891775e-09,
+            "opd_piston_removed_rms_over_reference_pv": 6.322210487562426e-09,
+            "opd_piston_removed_linf_over_reference_pv": 2.293841246842855e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 2.3007328033743594e-11,
+            "opd_piston_removed_rms_over_reference_pv": 5.884118883708994e-09,
+            "opd_piston_removed_linf_over_reference_pv": 2.1328566291779318e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 3.2573559480418663e-10,
+            "opd_piston_removed_rms_over_reference_pv": 1.1928409903810352e-09,
+            "opd_piston_removed_linf_over_reference_pv": 4.278025284516537e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 6.541707045392509e-11,
+            "opd_piston_removed_rms_over_reference_pv": 3.042828411957779e-10,
+            "opd_piston_removed_linf_over_reference_pv": 1.106211401553177e-09
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 5.6847709384069056e-11,
+            "opd_piston_removed_rms_over_reference_pv": 6.119537267381279e-11,
+            "opd_piston_removed_linf_over_reference_pv": 2.450287865580278e-10
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 3.8058036750996114e-11,
+            "opd_piston_removed_rms_over_reference_pv": 4.955703937636569e-11,
+            "opd_piston_removed_linf_over_reference_pv": 1.9982702396215864e-10
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "z",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 4.142915236500554e-11,
+            "opd_piston_removed_rms_over_reference_pv": 4.8105804154050134e-11,
+            "opd_piston_removed_linf_over_reference_pv": 1.913055925367666e-10
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "8fec4ff0a80072c48062c34086e2684a202d10725d2c9baba75d754839bbdb85",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053114266798Z_a06b0039/data/fem_run0.npz": "756cea57a434b72dde56ca97c74e67741cc27e59f543fc460b7ab81e57a0fe1a",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053740895032Z_a7120327/data/fem_run0.npz": "51673dda521a44f3593ece855f1fb19ceb6f6a183bc0f1af262079e71cd5ed4c",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T060401178626Z_6ae5d161/data/fem_run0.npz": "dc290a7d6d9bbf97125a8df36baaa700f35354b2ccff1604ab39a466899d8e51",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T061707132182Z_03f5981b/data/fem_run0.npz": "a9caf02f6a1f68dfd96b914c311d1238570f4ba66b3d048d9475229f6ac1ccda",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T062901253284Z_4bf6d62d/data/fem_run0.npz": "895d248b24290e80e3623f47f719c117959317ca17d4d18edc88bc486903668f"
+      }
+    },
+    {
+      "angle_deg": 60,
+      "direction": "time",
+      "records": [
+        {
+          "direction": "time",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.6281674966520102e-08,
+            "opd_piston_removed_rms_over_reference_pv": 1.508351906995274e-08,
+            "opd_piston_removed_linf_over_reference_pv": 5.8970503838551755e-08
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 5.528855549370082e-09,
+            "opd_piston_removed_rms_over_reference_pv": 3.086598003726216e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.2927059656183498e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 7.125227250563938e-08,
+            "opd_piston_removed_rms_over_reference_pv": 3.133265100252445e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.3674075652779783e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 3.6295402391472415e-07,
+            "opd_piston_removed_rms_over_reference_pv": 9.803118529048457e-08,
+            "opd_piston_removed_linf_over_reference_pv": 4.665528922668053e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.6212072512059026e-07,
+            "opd_piston_removed_rms_over_reference_pv": 3.835652578597397e-08,
+            "opd_piston_removed_linf_over_reference_pv": 1.8814253190719482e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.3826438542102282e-08,
+            "opd_piston_removed_rms_over_reference_pv": 3.162507042386442e-09,
+            "opd_piston_removed_linf_over_reference_pv": 1.3624969793281151e-08
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 4.363288154513615e-06,
+            "opd_piston_removed_rms_over_reference_pv": 1.1325140106716105e-06,
+            "opd_piston_removed_linf_over_reference_pv": 4.236594183765143e-06
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 5.525628629656739e-06,
+            "opd_piston_removed_rms_over_reference_pv": 1.486308323588833e-06,
+            "opd_piston_removed_linf_over_reference_pv": 3.0304816983559338e-06
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 6.009202430325678e-07,
+            "opd_piston_removed_rms_over_reference_pv": 1.702027939314932e-07,
+            "opd_piston_removed_linf_over_reference_pv": 3.987297216584004e-07
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "time",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.001,
+          "metrics": {
+            "opd_relative_pv": 1.1779830298014544e-07,
+            "opd_piston_removed_rms_over_reference_pv": 3.8570038512073126e-08,
+            "opd_piston_removed_linf_over_reference_pv": 9.458373248195984e-08
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "8fec4ff0a80072c48062c34086e2684a202d10725d2c9baba75d754839bbdb85",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053114266798Z_a06b0039/data/fem_run0.npz": "756cea57a434b72dde56ca97c74e67741cc27e59f543fc460b7ab81e57a0fe1a",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053740895032Z_a7120327/data/fem_run0.npz": "51673dda521a44f3593ece855f1fb19ceb6f6a183bc0f1af262079e71cd5ed4c",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T060401178626Z_6ae5d161/data/fem_run0.npz": "dc290a7d6d9bbf97125a8df36baaa700f35354b2ccff1604ab39a466899d8e51",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T061707132182Z_03f5981b/data/fem_run0.npz": "a9caf02f6a1f68dfd96b914c311d1238570f4ba66b3d048d9475229f6ac1ccda",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T062901253284Z_4bf6d62d/data/fem_run0.npz": "895d248b24290e80e3623f47f719c117959317ca17d4d18edc88bc486903668f"
+      }
+    },
+    {
+      "angle_deg": 60,
+      "direction": "joint",
+      "records": [
+        {
+          "direction": "joint",
+          "time_s": 0.001,
+          "gate": false,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.0002642609056710308,
+            "opd_piston_removed_rms_over_reference_pv": 0.00015033184161599808,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007342483385177269
+          },
+          "status": "NOT APPLICABLE"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.0025,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00024634219408560537,
+            "opd_piston_removed_rms_over_reference_pv": 0.00015004770226404777,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007149248240037726
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.01,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00018269692542088731,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014916941891749896,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007023072558752841
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.05,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 5.083625166899535e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.00014744364342643285,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007166441076648245
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.1,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 1.6804984717550008e-06,
+            "opd_piston_removed_rms_over_reference_pv": 0.000145121158729922,
+            "opd_piston_removed_linf_over_reference_pv": 0.0007132917265315387
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 0.625,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 5.006383834866803e-05,
+            "opd_piston_removed_rms_over_reference_pv": 0.0001249852236787433,
+            "opd_piston_removed_linf_over_reference_pv": 0.000634501049009758
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 2.5,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 4.466844651956895e-05,
+            "opd_piston_removed_rms_over_reference_pv": 9.034242276656236e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0004079488247763503
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 20.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00011903277998717489,
+            "opd_piston_removed_rms_over_reference_pv": 5.830060030439608e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.00021539088668255288
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 50.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00031539701840262836,
+            "opd_piston_removed_rms_over_reference_pv": 9.986172155204267e-05,
+            "opd_piston_removed_linf_over_reference_pv": 0.0002813197590862597
+          },
+          "status": "PASS"
+        },
+        {
+          "direction": "joint",
+          "time_s": 75.0,
+          "gate": true,
+          "threshold": 0.005,
+          "metrics": {
+            "opd_relative_pv": 0.00034415669787987827,
+            "opd_piston_removed_rms_over_reference_pv": 0.00010537645753150258,
+            "opd_piston_removed_linf_over_reference_pv": 0.00029248368044071637
+          },
+          "status": "PASS"
+        }
+      ],
+      "archived_optical_array_sha256": "8fec4ff0a80072c48062c34086e2684a202d10725d2c9baba75d754839bbdb85",
+      "source_node_sha256": {
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053114266798Z_a06b0039/data/fem_run0.npz": "756cea57a434b72dde56ca97c74e67741cc27e59f543fc460b7ab81e57a0fe1a",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T053740895032Z_a7120327/data/fem_run0.npz": "51673dda521a44f3593ece855f1fb19ceb6f6a183bc0f1af262079e71cd5ed4c",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T060401178626Z_6ae5d161/data/fem_run0.npz": "dc290a7d6d9bbf97125a8df36baaa700f35354b2ccff1604ab39a466899d8e51",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T061707132182Z_03f5981b/data/fem_run0.npz": "a9caf02f6a1f68dfd96b914c311d1238570f4ba66b3d048d9475229f6ac1ccda",
+        "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261017T062901253284Z_4bf6d62d/data/fem_run0.npz": "895d248b24290e80e3623f47f719c117959317ca17d4d18edc88bc486903668f"
+      }
+    }
+  ],
+  "steady_load_quadrature": [
+    {
+      "status": "PASS",
+      "angle_deg": 30,
+      "physical_parameters_SI": {
+        "radius": 0.0127,
+        "thickness": 0.005,
+        "conductivity": 1.38,
+        "density": 2203.0,
+        "specific_heat": 772.0,
+        "h_conv": 10.0,
+        "emissivity": 0.85,
+        "ambient_temperature": 300.0,
+        "absorbed_power": 0.11,
+        "beam_radius_ratio": 0.3,
+        "dn_dT": 8.415426824978581e-06,
+        "wavelength": 1.064e-06,
+        "incident_refractive_index": 1.0,
+        "substrate_refractive_index": 1.450076167940166
+      },
+      "baseline_node_file": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T200140235063Z_8f3a1290_p2_full_steady_fem_a1/data/theta30_mesh3.npz",
+      "baseline_node_sha256": "0d3604dd274719c8f5f51a76d2d2ccd77ebfd7fc69983ffe826efb80acb4d699",
+      "quadrature_orders": [
+        10,
+        14
+      ],
+      "mesh": {
+        "disk_refinements": 5,
+        "axial_layers": 64,
+        "field_degree": 2
+      },
+      "optical_metrics": {
+        "pv": 5.820369809346354e-12,
+        "rms": 1.6509759260609478e-12,
+        "maximum": 3.184501084362957e-12
+      },
+      "threshold_fraction": 0.0001,
+      "higher_solution_diagnostics": {
+        "degrees_of_freedom": 1073409,
+        "disk_triangles": 4096,
+        "prism_elements": 262144,
+        "disk_refinements": 5,
+        "axial_layers": 64,
+        "quadrature_order": 14,
+        "assembly_seconds": 1.80131527595222,
+        "polygon_area_m2": 0.0005065040123052361,
+        "polygon_perimeter_m": 0.07978844217369244,
+        "polygon_inradius_m": 0.012696174997441792,
+        "relative_area_deficit": 0.00040154685031290605,
+        "relative_perimeter_deficit": 0.00010039578385812042,
+        "field_degree_xy": 2,
+        "field_degree_z": 2,
+        "geometry_degree": 1,
+        "axial_dofs": 129,
+        "xy_dofs": 8321,
+        "solver": "cg",
+        "solver_rtol": 1e-10,
+        "iterations": 379,
+        "solve_seconds": 6.174164058174938,
+        "input_W": 0.10999999818240327,
+        "front_loss_W": 0.0424714553264777,
+        "rear_loss_W": 0.03952284590168413,
+        "side_loss_W": 0.02800569695194042,
+        "balance_absolute_error_W": 2.301020485262484e-12,
+        "relative_energy_imbalance": 2.091836839348765e-11,
+        "linear_residual_norm": 3.2642138897196667e-13,
+        "relative_linear_residual": 9.388551400944633e-11,
+        "mirror_reduction": {
+          "method": "orthonormal_double_mirror_fem_subspace",
+          "full_degrees_of_freedom": 1073409,
+          "reduced_degrees_of_freedom": 276705,
+          "xy_reflection_operator_relative_errors": {
+            "mass": 3.2971159238335934e-17,
+            "stiffness": 1.8229218612660042e-17,
+            "robin": 0.0
+          },
+          "full_space_physical_diagnostics": true
+        }
+      },
+      "elapsed_seconds": 10.053313779179007,
+      "output_sha256": "02bd6bf772d04e80161dc10492884cf640c26615992e19fc4f75c859e1640cc2",
+      "scope": "Steady optical sensitivity to front-load quadrature"
+    },
+    {
+      "status": "PASS",
+      "angle_deg": 60,
+      "physical_parameters_SI": {
+        "radius": 0.0127,
+        "thickness": 0.005,
+        "conductivity": 1.38,
+        "density": 2203.0,
+        "specific_heat": 772.0,
+        "h_conv": 10.0,
+        "emissivity": 0.85,
+        "ambient_temperature": 300.0,
+        "absorbed_power": 0.11,
+        "beam_radius_ratio": 0.3,
+        "dn_dT": 8.415426824978581e-06,
+        "wavelength": 1.064e-06,
+        "incident_refractive_index": 1.0,
+        "substrate_refractive_index": 1.450076167940166
+      },
+      "baseline_node_file": "/home/user/oblique-thermal-opd/outputs/fem_comparison/20261016T200140235063Z_8f3a1290_p2_full_steady_fem_a1/data/theta60_mesh3.npz",
+      "baseline_node_sha256": "aed316b45541b55de3e53006215f5e016d3da9bbd64af9003ce8861ddf6d0000",
+      "quadrature_orders": [
+        10,
+        14
+      ],
+      "mesh": {
+        "disk_refinements": 5,
+        "axial_layers": 64,
+        "field_degree": 2
+      },
+      "optical_metrics": {
+        "pv": 7.41525143681701e-12,
+        "rms": 1.905632041891124e-12,
+        "maximum": 3.9665533002411944e-12
+      },
+      "threshold_fraction": 0.0001,
+      "higher_solution_diagnostics": {
+        "degrees_of_freedom": 1073409,
+        "disk_triangles": 4096,
+        "prism_elements": 262144,
+        "disk_refinements": 5,
+        "axial_layers": 64,
+        "quadrature_order": 14,
+        "assembly_seconds": 1.8218993218615651,
+        "polygon_area_m2": 0.0005065040123052361,
+        "polygon_perimeter_m": 0.07978844217369244,
+        "polygon_inradius_m": 0.012696174997441792,
+        "relative_area_deficit": 0.00040154685031290605,
+        "relative_perimeter_deficit": 0.00010039578385812042,
+        "field_degree_xy": 2,
+        "field_degree_z": 2,
+        "geometry_degree": 1,
+        "axial_dofs": 129,
+        "xy_dofs": 8321,
+        "solver": "cg",
+        "solver_rtol": 1e-10,
+        "iterations": 383,
+        "solve_seconds": 6.266532422043383,
+        "input_W": 0.1098892171925281,
+        "front_loss_W": 0.042282113539919654,
+        "rear_loss_W": 0.039336937370277256,
+        "side_loss_W": 0.028270166280027806,
+        "balance_absolute_error_W": 2.3033797091898123e-12,
+        "relative_energy_imbalance": 2.0960925630712656e-11,
+        "linear_residual_norm": 2.4045201711388456e-13,
+        "relative_linear_residual": 8.918023003682776e-11,
+        "mirror_reduction": {
+          "method": "orthonormal_double_mirror_fem_subspace",
+          "full_degrees_of_freedom": 1073409,
+          "reduced_degrees_of_freedom": 276705,
+          "xy_reflection_operator_relative_errors": {
+            "mass": 3.2971159238335934e-17,
+            "stiffness": 1.8229218612660042e-17,
+            "robin": 0.0
+          },
+          "full_space_physical_diagnostics": true
+        }
+      },
+      "elapsed_seconds": 10.130899189971387,
+      "output_sha256": "b4f0f57d37a624b4fbe9f86edaf8f6d755a4aa638b205f1887ced799174bab5f",
+      "scope": "Steady optical sensitivity to front-load quadrature"
+    }
+  ],
+  "source_files_sha256": {
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/steady_0_30/summary.json": "44fb87d40ef676367aff4bf1f1b04997dfd75de9aad9df60fb29b75307e4d9b6",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/steady_0_30/config.json": "ea5493849becee24b30dc0863f8f460c3a1599f29124390b0a1a8daf2677f7f0",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/steady_60/summary.json": "22810f4867715acb805041f248f80bc0b6c0966e1a8efa5fc9d41b6eb5fbccde",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/steady_60/config.json": "34f0b9b03870316f8bba83037317c3ed937c5d8d8730ac253744b27680f654c4",
+    "outputs/optical_completion/20261116T205530Z_ab7d2d6/run_summary.json": "eb78b689b3e674a9105d8512c62624310034faab0f756a2e5bbaf38038fb4df1",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_0/summary.json": "97bdafea072632e0aff7b5e2d9d4086ce253b91878eb46995e6cf5aed74c21c5",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_0/config.json": "f33c5d4c53538e4ae4fd9d42dea7e32335bc513cf9be3a275065bdb3cc5698b3",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_0/verification.json": "0c97b55d050d225cad474ed63abb2818cb3faf507b9467d94c496539324a1575",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_30/summary.json": "67e7313ea529dcd99e3b4fa989a4c8447e9946850986a216b465ac683bef175f",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_30/config.json": "7d89aac593dbb90c67c1509b31eed15a9017649eafe8bccb1a7b6e27349297ed",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_30/verification.json": "11faaae05a31dd39e445f5f752cec2cbbff3afb681cf491fddd5d0b64bdef4b5",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_60/summary.json": "df145db7e69cc7716ccfc58ee7b438631fb9bf65bd5b2cdedcd2f94a45349cd7",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_60/config.json": "d1b41c8a5b65f79218dd9e32bb03c7b175f415cb7fa1c9e222305e3289219aa3",
+    "outputs/optical_server_replay/optics_20261109T220402Z_eb35d82/transient_60/verification.json": "8ff8b8a66ca6d532df954895290f966c0f002a7891d3f4eee7541c945519a9ed",
+    "outputs/optical_completion/20261116T205530Z_ab7d2d6/complete_optical_evidence.py": "d59de9e79524d9b617ffde260fdc4af07f7ae221453a89dcbf4195650ece24a4",
+    "outputs/optical_completion/20261116T205530Z_ab7d2d6/load_30/summary.json": "4196eac38a03fb10cbfcb9ddaf8682beabac92b97643a383c2d58f66e81f3297",
+    "outputs/optical_completion/20261116T205530Z_ab7d2d6/load_60/summary.json": "eab625d4c192fd8b6f01e12052e1191a865a9cc5c1f3e050f7e57c2c87897727"
+  },
+  "controls": {
+    "percent_and_null": "passed",
+    "diagnostic_exclusion": "passed",
+    "corruptions_rejected": 8
+  },
+  "scope": "Retrieval and percent conversion of derived saved-node FEM optical re-evaluation; no new transient thermal solves. The Q10-to-Q14 load checks used additional completed steady solves.",
+  "certification": "Derived evidence only; not a standard-loader-compatible full scientific certificate or a new physical validation.",
+  "denominator": "Directional refinement: corresponding refined FEM OPD-PV; piston removed from field differences.",
+  "steady_load_denominator": "Baseline order-10 FEM OPD-PV. Preserved from complete_optical_evidence.py: errors = metrics(optical, original), where original is baseline and optical is order-14. Distinct from directional-refinement denominators.",
+  "gate_times_s": [
+    0.0025,
+    0.01,
+    0.05,
+    0.1,
+    0.625,
+    2.5,
+    20.0,
+    50.0,
+    75.0
+  ],
+  "diagnostic_only_times_s": [
+    0.001
+  ],
+  "targets_percent": {
+    "steady": 0.1,
+    "transient_space_and_joint": 0.5,
+    "transient_time": 0.1,
+    "steady_load_quadrature": 0.01
+  },
+  "display": "Values below 1e-5 percent shown as <1e-5 percent; CSV/JSON retain saved precision without an accuracy claim.",
+  "provenance_limit": "Large archived node/optical arrays remain remote; their hashes and completed readback are retained. Local export checks summaries/configurations/derived verification only. Steady replay directories have no separate verification.json.",
+  "independence": "Summary-versus-verification and completed readback use shared archived evidence; these are consistency/integrity checks, not independent validation of the underlying numerical method."
+}

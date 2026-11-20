@@ -1,0 +1,76 @@
+# Research materials / working notes
+Papers/
+Notes/
+Reports/
+deliverables/
+
+# All generated runs, archived results, and migration evidence
+/outputs/
+# Obsolete output root: keep accidental legacy writes untracked
+/results/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Build and test artifacts
+/build/
+/dist/
+pip-wheel-metadata/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Temporary files
+tmp/
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+~$*
+.obsidian/
+
+# Local manuscript and writing workflow (kept outside the public code tree)
+/manuscript/
+/Agents.md
+/AGENTS.md
+/README.legacy.zh-CN.md
+/README.zh-CN.md
+/.codex/
+/.agents/
+/.claude/
+/docs/superpowers/
+
+# Stray LaTeX build artifacts at repository root
+/*.aux
+/*.out
+/*.toc
+/*.fls
+/*.fdb_latexmk
+/*.synctex.gz

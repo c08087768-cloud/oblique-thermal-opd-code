@@ -1,0 +1,23 @@
+{
+  "export_sha256": "01cca09229e4bc2fd3fd07d207660290c2277959388726dfc84737d1871f9f56",
+  "source_files_unchanged": true,
+  "physical_parameters_SI": {
+    "radius": 0.0127,
+    "thickness": 0.005,
+    "conductivity": 1.38,
+    "density": 2203.0,
+    "specific_heat": 772.0,
+    "h_conv": 10.0,
+    "emissivity": 0.85,
+    "ambient_temperature": 300.0,
+    "absorbed_power": 0.11,
+    "beam_radius_ratio": 0.3,
+    "dn_dT": 8.415426824978581e-06,
+    "wavelength": 1.064e-06,
+    "incident_refractive_index": 1.0,
+    "substrate_refractive_index": 1.450076167940166
+  },
+  "source_file": "outputs/optical_parameter_update/20261102T211531Z/new_opd_fem_theta60.npz",
+  "source_sha256": "489306a7facdf6c8386edde8bb1a9e7bc9f9429ee975f74bb825e0dd50a2bbd8",
+  "note": "New refracted-path evaluations; original exported frames are preserved separately."
+}

@@ -1,0 +1,23 @@
+{
+  "source_files_sha256": {
+    "outputs/experiment_audit/20261017T121521368371Z_f107298c/data/snapshot/outputs/fem_comparison/20261017T032513109092Z_ce9843f7_defect_continuation_transient_fem_theta0_a1/summary.json": "82918f36fbbab8326638b1514143e9e35f527a75fb3cedfdda4a0d9702077d62",
+    "outputs/optical_parameter_update/20261102T211531Z/new_opd_fem_theta30.json": "fe9094c3071c020cd8b76cb4e79bacd5a9220d4b5cc84ac8916b723a40a78110",
+    "outputs/optical_parameter_update/20261102T211531Z/new_opd_fem_theta60.json": "6d16972d7239ac92ba9e3e7df46368c733c570711de66ba8b17dc5d30103ef7e",
+    "outputs/experiment_audit/20261017T121521368371Z_f107298c/data/snapshot/outputs/fem_comparison/20261016T200140235063Z_8f3a1290_p2_full_steady_fem_a1/summary.json": "19389b9f273e84ccaad5b09fea904479d1e9e3136f298a5b93fab73b4f44a044",
+    "outputs/optical_parameter_update/20261102T211531Z/steady_fem_theta30.json": "a02ae7ba6edef852521eb1a5d5230348d5168b2e3473d38585cda10872c45164",
+    "outputs/optical_parameter_update/20261102T211531Z/steady_fem_theta60.json": "19a03292424d36054c98ebe1456e8a03c90ea1e7e018884680fb425fbfbc33f2",
+    "outputs/optical_parameter_update/20261102T211531Z/sa_check_theta0.json": "1578ae652bbff65db2f2efae43d46c0900a0ee2029d2b63a7ddf6d5e07c69b8b",
+    "outputs/optical_parameter_update/20261102T211531Z/sa_check_theta30.json": "6c617e35b0ca9651f08269d3d37be5dcbda0e0604958cb8c3008fadcf671b1ef",
+    "outputs/optical_parameter_update/20261102T211531Z/sa_check_theta60.json": "f36bf9bec02c936ca7885f7034e84e228a47d1bd01fb3356f44ca8def9d0ff72",
+    "outputs/optical_parameter_update/20261102T211531Z/sa_theta0/summary.json": "4013d34be2e401bcdbce5caf1ca15cf45aff9e61418b614993a3cf19b9472405",
+    "outputs/optical_parameter_update/20261102T211531Z/sa_theta30/summary.json": "3153ed0a75997d89ee055470afa2bc29148f2f96ea13da6aa27ad7683d75b582",
+    "outputs/optical_parameter_update/20261102T211531Z/sa_theta60/summary.json": "2fc38be1e1e7525589b3277da6dbf87e525b1a744fd06af354c2cbec755b17a7",
+    "outputs/experiment_audit/20261017T121521368371Z_f107298c/data/snapshot/outputs/fem_convergence_validation/20261017T032513109092Z_ce9843f7_defect_continuation_transient_fem_convergence_a1/summary.json": "33f8354202168d7fba2f313f6deec89e77a7364f8155dae7902344ee678f0659",
+    "outputs/experiment_audit/20261017T121521368371Z_f107298c/data/snapshot/outputs/fem_convergence_validation/20261017T032513109092Z_ce9843f7_defect_continuation_transient_fem_convergence_a1/verification.json": "52446cecda8f42a941a2d068e7f662eaadb472b81b936529a3ca144d334c67c0"
+  },
+  "scope": "Retrieval and percent conversion only; no new numerical solution",
+  "normal_incidence": "Relative discrepancies invariant under common positive thermo-optic scaling; straight paths and pupil unchanged",
+  "table_time_comparison": "Temperature maximum over three recorded planes; full cross-method norms as defined in saved results",
+  "sa_checks": "Steady one case; transient maxima over the ten positive observation times",
+  "controls": "Known percent conversion passed; duplicate/truncated times, negative and NaN metrics rejected"
+}

@@ -1,0 +1,4 @@
+# Preserve exact bytes of archived numerical sampling inputs on every platform.
+data/reference/theta0_history.csv -text whitespace=cr-at-eol
+data/reference/theta30_history.csv -text whitespace=cr-at-eol
+data/reference/theta60_history.csv -text whitespace=cr-at-eol
